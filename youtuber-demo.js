@@ -5,21 +5,21 @@ const app = express()
 app.listen(1234)
 
 let youtuber1 = {
-    channelTitle : "십오야", 
-    subscriber : "593만명", 
-    videoNum : "993개"
+    channelTitle : "김구선생", 
+    subscriber : "5만명", 
+    videoNum : "3개"
 }
 
 let youtuber2 = {
-    channelTitle : "침착맨", 
-    subscriber : "227만명", 
-    videoNum : "6600개"
+    channelTitle : "홀란드", 
+    subscriber : "20만명", 
+    videoNum : "643개"
 }
 
 let youtuber3 = {
-    channelTitle : "테오", 
-    subscriber : "54.8만명", 
-    videoNum : "726개"
+    channelTitle : "곽튜브", 
+    subscriber : "130만명", 
+    videoNum : "62개"
 }
 
 let db = new Map()     // db에는 number가 들어있다
